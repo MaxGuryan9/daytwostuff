@@ -89,8 +89,8 @@ df.head()
 # 1. Create a new GitHub repository (or fork an existing one) for your project
 # 2. Create a codespace for the repository (Click the green "Code" button
 # and select "Codespace" and add a new codespace)
-# 3. Open up VS Code locally and select "Connect"
-# 4. Connect to the codespace of the desirec repository
+# 3. Open up VS Code locally and select "Connect" and then "Connect to Codespace"
+# 4. Connect to the codespace of the desired repository
 # 5. Inside the terminal of the codespace create a virtual environment by typing:
 # python3 -m venv .venv
 # 6. Activate the virtual environment by typing:
