@@ -76,3 +76,10 @@ df.head()
 # %%
 # The correct terminal command to update the requirements.txt file with the plotly (6.5.1) package is:
 # pip freeze > requirements.txt
+
+# %% 
+# Run these commands in your terminal to commit and push your changes to GitHub:
+# git add .
+# git commit -m "The updates and changes made through daytwostuff activity"\
+# git push origin main
+
