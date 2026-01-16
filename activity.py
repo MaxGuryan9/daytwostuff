@@ -108,6 +108,12 @@ df.head()
 # b. Add the package and version directly into the requirements.txt file and then
 # type pip install -r requirements.txt into the terminal to install the new package
 # 11. Add a data set or code files to the repository as needed to complete the project.
+# Also make sure to add a .gitignore file to the repository that ignores the virtual environment
+# by adding the following lines to the .gitignore file:
+# .venv/
+# venv/
+# env/
+# (There are many other things you can add to a .gitignore file, but this is the most important for this activity)
 # 12. As you make changes to the repository, add, commit, and push the changes to GitHub:
 # git add . or git add file_name
 # git commit -m "commit message describing changes made"
