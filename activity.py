@@ -83,3 +83,32 @@ df.head()
 # git commit -m "The updates and changes made through daytwostuff activity"\
 # git push origin main
 
+
+# %%
+# Steps to create your own working project environment:
+# 1. Create a new GitHub repository (or fork an existing one) for your project
+# 2. Create a codespace for the repository (Click the green "Code" button
+# and select "Codespace" and add a new codespace)
+# 3. Open up VS Code locally and select "Connect"
+# 4. Connect to the codespace of the desirec repository
+# 5. Inside the terminal of the codespace create a virtual environment by typing:
+# python3 -m venv .venv
+# 6. Activate the virtual environment by typing:
+# source .venv/bin/activate
+# 7. Upgrade pip by typing:
+# pip install --upgrade pip
+# 8. Assuming that you need to install some packages, create a requirements.txt file
+# inside the working directory of the repository and add the packages and versions needed
+# example: plotly==6.5.1
+# 9. Install the packages from the requirements.txt file by typing this into the terminal:
+# pip install -r requirements.txt
+# 10. If you realize that you need to add more packages later on, you can do this in one of two ways:
+# a. Install the package by typing pip install package_name into the terminal and then
+# update the requirements.txt file by typing pip freeze > requirements.txt
+# b. Add the package and version directly into the requirements.txt file and then
+# type pip install -r requirements.txt into the terminal to install the new package
+# 11. Add a data set or code files to the repository as needed to complete the project.
+# 12. As you make changes to the repository, add, commit, and push the changes to GitHub:
+# git add . or git add file_name
+# git commit -m "commit message describing changes made"
+# git push origin main
